@@ -1,6 +1,6 @@
 # regressors
 
-sklearn で提供されている分類モデル比較表の回帰モデルバージョンを作りたかったというのが発端。
+sklearn で提供されている分類モデル比較表の回帰モデルバージョンを作りたかったというのが発端。  
 https://scikit-learn.org/stable/auto_examples/classification/plot_classifier_comparison.html
 
 ## 概要
@@ -11,17 +11,17 @@ https://scikit-learn.org/stable/auto_examples/classification/plot_classifier_com
 ## notebook
 
 ### 線形回帰
-todo colab link
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yuji96/data-science-notes/blob/main/regressors/notebooks/1_linear.ipynb)  
 グラフが直線という意味ではなく、基底関数が線形結合しているという意味での「線形」。
 
 ### ベイズ理論
-todo colab link
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yuji96/data-science-notes/blob/main/regressors/notebooks/2_bayes.ipynb)
 
 ### ニューラルネットワーク
-todo colab link
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yuji96/data-science-notes/blob/main/regressors/notebooks/3_neural-network.ipynb)
 
 ### 決定木ベース
-todo colab link
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yuji96/data-science-notes/blob/main/regressors/notebooks/4_tree.ipynb)
 
 ### その他
 実装から省いたモデル。
