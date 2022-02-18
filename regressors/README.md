@@ -1,5 +1,7 @@
 # regressors
 
+![](https://raw.githubusercontent.com/yuji96/data-science-notes/main/regressors/list.png)
+
 sklearn で提供されている分類モデル比較表の回帰モデルバージョンを作りたかったというのが発端。  
 https://scikit-learn.org/stable/auto_examples/classification/plot_classifier_comparison.html
 
