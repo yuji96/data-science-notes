@@ -50,11 +50,10 @@ svr.fit(x, y.ravel())
 
 pred = svr.predict(x)
 fig[1, 0].plot(x, pred, lw=2.3, color="b")
-fig[1, 0].scatter(x[svr.support_], y[svr.support_], marker="*", color="b")
+fig[1, 0].scatter(x[svr.support_], y[svr.support_], marker="*", color="g", s=60)
 fig[1, 0].fill_between(x.ravel(), pred - eps, pred + eps, color="gray", alpha=0.3)
 fig[1, 0].set(title="SVR")
 
-# TODO
 # MLPRegressor
 from sklearn.neural_network import MLPRegressor
 
@@ -104,7 +103,7 @@ grad.fit(x, y.ravel())
 estimators = np.array(grad.estimators_).ravel()
 for i, (est, s_pred) in enumerate(zip(estimators, grad.staged_predict(x))):
     c = cm.jet(i / grad.n_estimators)
-    fig[1, 2].step(x, est.predict(x), alpha=0.4, where="mid", color=c)
+    fig[1, 2].step(x, est.predict(x), alpha=0.25, where="mid", color=c)
 fig[1, 2].step(x, grad.predict(x), lw=2.3, where="mid", color="b")
 fig[1, 2].set(title="GradientBoosting")
 
