@@ -1,9 +1,12 @@
-# regressors
+# Regressor comparison
 
 ![](https://raw.githubusercontent.com/yuji96/data-science-notes/main/regressors/list.png)
 
-sklearn で提供されている分類モデル比較表の回帰モデルバージョンを作りたかったというのが発端。  
-https://scikit-learn.org/stable/auto_examples/classification/plot_classifier_comparison.html
+sklearn で提供されている分類モデル比較表の回帰モデルバージョンを作りたかったというのが作成の発端です。  
+> ## アルゴリズムの比較表  
+> 分類モデル: [Classifier comparison - sklearn](https://scikit-learn.org/stable/auto_examples/classification/plot_classifier_comparison.html)  
+> クラスタリング: [Comparing different clustering algorithms on toy datasets - sklearn](https://scikit-learn.org/stable/auto_examples/cluster/plot_cluster_comparison.html)  
+> 次元削減: [PCA, Kernel-PCA, t-SNE, CNNによる可視化のための次元削減の比較 - Qiita](https://qiita.com/koshian2/items/321690d8b94a77931bae#%E3%81%BE%E3%81%A8%E3%82%81)  
 
 ## 概要
 人工データに対して様々なアルゴリズムで回帰した結果の図を見て、それぞれの特徴を考察していく。
