@@ -16,9 +16,13 @@ Python を基礎からしっかり固めるスタイルの教材。
 
 ![about](https://img.shields.io/badge/about-programming,_math,_Machine_Learning-blueviolet)
 
-
-
 Chainer は開発停止しているが、Python の基本構文や他のライブラリの章の内容も充実していて、理論的解説も丁寧。
+
+### [Python 早見表](https://chokkan.github.io/python/index.html)
+
+![tool](https://img.shields.io/badge/tool-python,_numpy-blue)
+
+![about](https://img.shields.io/badge/about-programming-blueviolet)
 
 ## データ操作
 
